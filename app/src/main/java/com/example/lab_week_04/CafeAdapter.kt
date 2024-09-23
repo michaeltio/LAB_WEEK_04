@@ -6,11 +6,10 @@ import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 val TABS_FIXED = listOf(
-R.string.starbucks_title,
-R.string.janjijiwa_title,
-R.string.kopikenangan_title,
+    R.string.starbucks_title,
+    R.string.janjijiwa_title,
+    R.string.kopikenangan_title,
 )
-
 class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
     FragmentStateAdapter(fragmentManager, lifecycle) {
     override fun getItemCount(): Int {
