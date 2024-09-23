@@ -1,9 +1,14 @@
 package com.example.lab_week_04
 
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.lifecycle.Lifecycle
+import androidx.viewpager2.adapter.FragmentStateAdapter
+
 val TABS_FIXED = listOf(
-R.string.starbucks _ title,
-R.string.janjijiwa _ title,
-R.string.kopikenangan _ title,
+R.string.starbucks_title,
+R.string.janjijiwa_title,
+R.string.kopikenangan_title,
 )
 
 class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
