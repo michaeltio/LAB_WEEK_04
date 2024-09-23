@@ -17,8 +17,8 @@
     <string name="coffee_favorites">My Favorite Coffee</string>
     <string name="cafe_list">Cafe List</string>
 
-    <string name="bottommenu__coffee">Coffee</string>
-    <string name="bottommenu__cafe">Cafe</string>
+    <string name="bottom_menu_coffee">Coffee</string>
+    <string name="bottom_menu_cafe">Cafe</string>
 
     <string name="starbucks_title">STARBUCKS</string>
     <string name="starbucks_desc">Starbucks Corporation is an American
